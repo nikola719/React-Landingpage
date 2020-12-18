@@ -67,7 +67,7 @@ function App() {
         <section className="section hero">
           <div className="container">
             <div className="hero__avartar__image-wrapper">
-              <img src="img/myavatar.svg"></img>
+              <img src="img/myavatar.svg" alt="hero-avartar-img"></img>
             </div>
             <div className="hero__text-wrapper">
               <h2>Hi, I’m Kasun Suess.</h2>
@@ -78,7 +78,7 @@ function App() {
               </p>
             </div>
             <div className="hero__back__image-wrapper">
-              <img src="img/hero-back.svg"></img>
+              <img src="img/hero-back.svg" alt="img"></img>
             </div>
           </div>
         </section>
@@ -132,7 +132,7 @@ function App() {
               <h3 className="section__title">
                 I publish my thoughts occasionally
               </h3>
-              <img src="img/pub-img-title.svg" alt="com-image-1"></img>
+              <img src="img/pub-img-title.svg" alt="publish-image-1"></img>
             </div>
             <p className="section__subtitle">
               I'm a full stack developer currently working as CTO at Wehance
@@ -147,7 +147,7 @@ function App() {
         <section className="section about">
           <div className="container">
             <div className="about__avartar__image-wrapper">
-              <img src="img/myavatar.svg"></img>
+              <img src="img/myavatar.svg" alt="about-img"></img>
             </div>
             <div className="section__header">
               <h3 className="section__title">
@@ -163,7 +163,7 @@ function App() {
             <div className="about__skills__container">
               <h4>Technical Skills</h4>
               <div className="about__skills__item">
-                <img src="img/javascript.svg"></img>
+                <img src="img/javascript.svg" alt="skill-img-1"></img>
                 <p className="language">Javascript</p>
                 <p className="type">Service type</p>
                 <div className="bottom">
@@ -172,7 +172,7 @@ function App() {
                 </div>
               </div>
               <div className="about__skills__item">
-                <img src="img/react.svg"></img>
+                <img src="img/react.svg" alt="skill-img-2"></img>
                 <p className="language">ReactJS</p>
                 <p className="type">Service type</p>
                 <div className="bottom">
@@ -181,7 +181,7 @@ function App() {
                 </div>
               </div>
               <div className="about__skills__item">
-                <img src="img/angular.svg"></img>
+                <img src="img/angular.svg" alt="skill-img-3"></img>
                 <p className="language">AngularJS</p>
                 <p className="type">Service type</p>
                 <div className="bottom">
@@ -190,7 +190,7 @@ function App() {
                 </div>
               </div>
               <div className="about__skills__item">
-                <img src="img/svelte.svg"></img>
+                <img src="img/svelte.svg" alt="skill-img-4"></img>
                 <p className="language">SvelteJS</p>
                 <p className="type">Service type</p>
                 <div className="bottom">
@@ -199,7 +199,7 @@ function App() {
                 </div>
               </div>
               <div className="about__skills__item">
-                <img src="img/vue.svg"></img>
+                <img src="img/vue.svg" alt="skill-img-5"></img>
                 <p className="language">VueJS</p>
                 <p className="type">Service type</p>
                 <div className="bottom">
@@ -208,7 +208,7 @@ function App() {
                 </div>
               </div>
               <div className="about__skills__item">
-                <img src="img/typescript.svg"></img>
+                <img src="img/typescript.svg" alt="skill-img-6"></img>
                 <p className="language">Typescript</p>
                 <p className="type">Service type</p>
                 <div className="bottom">
@@ -217,7 +217,7 @@ function App() {
                 </div>
               </div>
               <div className="about__skills__item">
-                <img src="img/node.svg"></img>
+                <img src="img/node.svg" alt="skill-img-7"></img>
                 <p className="language">NodeJS</p>
                 <p className="type">Service type</p>
                 <div className="bottom">
@@ -226,7 +226,7 @@ function App() {
                 </div>
               </div>
               <div className="about__skills__item">
-                <img src="img/python.svg"></img>
+                <img src="img/python.svg" alt="skill-img-8"></img>
                 <p className="language">Python</p>
                 <p className="type">Service type</p>
                 <div className="bottom">
@@ -240,11 +240,11 @@ function App() {
         <section className="section chat">
           <div className="container">
             <div className="chat__avartar__image-wrapper">
-              <img src="img/myavatar.svg"></img>
+              <img src="img/myavatar.svg" alt="caht-img-1"></img>
             </div>
             <div className="section__header">
               <h3 className="section__title">Let’s have a chat</h3>
-              <img src="img/chat-img-title.svg" alt="tech-image-1"></img>
+              <img src="img/chat-img-title.svg" alt="chat-image-2"></img>
             </div>
             <p className="section__subtitle">
               I’m always happy to talk about working together, new opportunities
@@ -296,7 +296,7 @@ function App() {
             <div className="footer__widget__left">
               <div className="white-dot-back"></div>
               <div className="logo-avartar">
-                <img src="img/myavatar_small.svg"></img>
+                <img src="img/myavatar_small.svg" alt="widget-img"></img>
               </div>
               <div className="white-dot-back"></div>
             </div>
@@ -308,12 +308,12 @@ function App() {
               <ul className="widget-link-image">
                 <li className="widget-link-item">
                   <a href="#">
-                    <img src="img/footer-ball.svg" alt="bas" />
+                    <img src="img/footer-ball.svg" alt="footabll-bas" />
                   </a>
                 </li>
                 <li className="widget-link-item">
                   <a href="#">
-                    <img src="img/footer-tel.svg" alt="bas" />
+                    <img src="img/footer-tel.svg" alt="tal-bas" />
                   </a>
                 </li>
               </ul>

@@ -211,7 +211,10 @@ a {
       background: linear-gradient(180deg, #feefb7 0%, #ffe899 99.93%);
       border-radius: 50%;
       margin: auto;
-      margin-bottom: 2.0625rem; }
+      margin-bottom: 2.0625rem;
+      padding: 10px 20px; }
+      .page-wrapper .hero__avartar__image-wrapper img {
+        max-width: 100%; }
     .page-wrapper .hero__back__image-wrapper {
       text-align: center;
       padding: 2.5rem 0; }
@@ -272,7 +275,10 @@ a {
     background: linear-gradient(180deg, #feefb7 0%, #ffe899 99.93%);
     border-radius: 50%;
     margin: auto;
-    margin-bottom: 2.0625rem; }
+    margin-bottom: 2.0625rem;
+    padding: 10px 20px; }
+    .page-wrapper .about__avartar__image-wrapper img {
+      max-width: 100%; }
   .page-wrapper .about__skills__container {
     position: relative;
     background-color: #ebf4fc;
@@ -356,7 +362,10 @@ a {
     background: linear-gradient(180deg, #feefb7 0%, #ffe899 99.93%);
     border-radius: 50%;
     margin: auto;
-    margin-bottom: 2.0625rem; }
+    margin-bottom: 2.0625rem;
+    padding: 10px 20px; }
+    .page-wrapper .chat__avartar__image-wrapper img {
+      max-width: 100%; }
   .page-wrapper .chat .section__subtitle {
     max-width: 700px; }
   .page-wrapper .chat__contact__container {

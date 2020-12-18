@@ -10,6 +10,19 @@ function App() {
   return (
     <div className="App">
       <header className={"header" + (navStatus ? " mobile-nav--active" : "")}>
+        <div className="header__top">
+          <div className="header__top__container">
+            <div className="header__top__left">
+              <img src="img/header-hand.svg" alt="top-1" />
+              <img src="img/header-top-title.svg" alt="top-1" />
+              <span>Support the Equal Justice Initative.</span>
+            </div>
+            <div className="header__top__right">
+              <span>Donate now</span>
+              <img src="img/header-link.svg" alt="donate" />
+            </div>
+          </div>
+        </div>
         <div className="header__content-wrapper">
           <a href="#" className="header__logo">
             <div className="logo__avartar">

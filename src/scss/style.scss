@@ -28,20 +28,68 @@ a {
 .header {
   position: fixed;
   width: 100%;
-  height: 4.6875rem;
+  //   height: 4.6875rem;
   top: 0;
   left: 0;
-  padding: 10px 0;
+  //   padding: 10px 0;
   background: white;
   box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.1);
   z-index: 1;
+  &__top {
+    height: 4.6875rem;
+    background-color: black;
+    padding: 10px 0.9375rem;
+    line-height: 4;
+  }
+  &__top__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+  }
+  &__top__left {
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 0.625rem;
+      &:first-child {
+        width: 2.375rem;
+      }
+    }
+    span {
+      font-family: Circular Std;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.25rem;
+      line-height: 1.2;
+      color: #ffffff;
+    }
+  }
+  &__top__right {
+    display: flex;
+    align-items: center;
+    span {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 1.25rem;
+      line-height: 3;
+      color: #ffffff;
+    }
+    img {
+      width: 1.625rem;
+      margin-left: 0.625rem;
+    }
+  }
   &__content-wrapper {
     max-width: 1210px;
     display: flex;
-    padding: 0 0.9375rem;
+    padding: 10px 0.9375rem;
     margin: auto;
     align-items: center;
     justify-content: space-between;
+    height: 4.6875rem;
   }
   &__logo {
     display: flex;
@@ -82,6 +130,11 @@ a {
     &__link {
       font-family: Eina;
       color: #040110;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 1.25rem;
+      line-height: 1.35;
+      letter-spacing: -0.7px;
       position: relative;
       &:hover {
         color: rgba(#040110, 0.7);
@@ -152,7 +205,7 @@ a {
   }
 }
 .page-wrapper {
-  margin-top: 4.6875rem;
+  margin-top: 9.375rem;
   background-color: white;
   .container {
     max-width: 1034px;
@@ -237,6 +290,9 @@ a {
         line-height: 1.8;
         text-align: center;
         color: #ffffff;
+        span {
+          color: #fce190;
+        }
       }
     }
   }
@@ -587,6 +643,11 @@ a {
     font-size: 12px;
   }
   .header {
+    &__top__left {
+      span {
+        display: none;
+      }
+    }
     &__content-wrapper {
     }
     &__nav {
@@ -713,6 +774,14 @@ a {
 }
 @media (max-width: 375px) {
   .header {
+    &__top__container {
+      height: 100%;
+    }
+    &__top__right {
+      span {
+        display: none;
+      }
+    }
     &__logo {
       .logo__title {
         display: none;

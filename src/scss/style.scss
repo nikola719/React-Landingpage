@@ -37,7 +37,7 @@ a {
   z-index: 1;
   &__top {
     height: 4.6875rem;
-    background-color: black;
+    background-color: #040110;
     padding: 10px 0.9375rem;
     line-height: 4;
   }
@@ -247,7 +247,7 @@ a {
     padding: 6.5625rem 0;
   }
   .hero {
-    background: black;
+    background: #00050f;
     padding: 6rem 0;
     &__avartar__image-wrapper {
       display: flex;
@@ -284,7 +284,6 @@ a {
       }
       p {
         font-family: Graphik;
-        font-style: italic;
         font-weight: normal;
         font-size: 1.5625rem;
         line-height: 1.8;
@@ -297,6 +296,9 @@ a {
     }
   }
   .company {
+    .section__subtitle {
+      margin-bottom: 9.875rem;
+    }
     &__card {
       display: flex;
       flex-wrap: wrap;
@@ -329,6 +331,10 @@ a {
     }
   }
   .publish {
+    padding: 7rem 0 10rem;
+    .section__subtitle {
+      margin-bottom: 6.25rem;
+    }
     &__image-wrapper {
       img {
         width: 100%;
@@ -336,6 +342,9 @@ a {
     }
   }
   .about {
+    .section__subtitle {
+      margin-bottom: 7.1875rem;
+    }
     &__avartar__image-wrapper {
       display: flex;
       justify-content: center;
@@ -458,11 +467,12 @@ a {
     &__contact__container {
       text-align: center;
       p {
-        font-family: Eina-SemiBold;
+        font-family: Eina;
         font-size: 25px;
         line-height: 45px;
         text-align: center;
         letter-spacing: -0.7px;
+        font-weight: 500;
         color: #03000a;
         &:first-child {
           text-decoration-line: underline;
@@ -588,7 +598,8 @@ a {
     .widget-link-text {
       margin-bottom: 4.1875rem;
       p {
-        font-family: Eina-SemiBold;
+        font-family: Eina;
+        font-weight: 500;
         font-size: 1.1875rem;
         line-height: 1.42;
         letter-spacing: -0.7px;
@@ -618,7 +629,8 @@ a {
     width: 100%;
     padding: 2.5rem 0 1.875rem;
     p {
-      font-family: Eina-SemiBold;
+      font-family: Eina;
+      font-weight: 500;
       font-size: 0.875rem;
       line-height: 1.57;
       letter-spacing: -0.7px;

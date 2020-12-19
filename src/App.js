@@ -91,7 +91,7 @@ function App() {
               </p>
             </div>
             <div className="hero__back__image-wrapper">
-              <img src="img/hero-back.svg" alt="img"></img>
+              <img src="img/hero-back.png" alt="img"></img>
             </div>
           </div>
         </section>
@@ -153,7 +153,8 @@ function App() {
               more than 8 years of experience in the tech business.
             </p>
             <div className="publish__image-wrapper">
-              <img src="img/pub-img.svg" alt="pub-img"></img>
+              {/* <img src="img/pub-img.svg" alt="pub-img"></img> */}
+              <img src="img/thoughts.png" alt="pub-img"></img>
             </div>
           </div>
         </section>

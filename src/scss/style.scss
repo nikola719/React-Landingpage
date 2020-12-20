@@ -57,13 +57,22 @@ a {
         width: 2.375rem;
       }
     }
-    span {
-      font-family: Circular Std;
+    .logo_top_right {
+      font-family: Basier Circle;
       font-style: normal;
       font-weight: normal;
       font-size: 1.25rem;
       line-height: 1.2;
       color: #ffffff;
+    }
+    span {
+      font-family: Circular Std;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 1.25;
+      font-size: 1.25rem;
+      color: #ffeaa0;
+      margin-right: 0.625rem;
     }
   }
   &__top__right {
@@ -95,8 +104,16 @@ a {
     display: flex;
     align-items: center;
     .logo__title {
-      height: 1.6875rem;
-      margin-top: 0.9375rem;
+      //   height: 1.6875rem;
+      //   margin-top: 0.9375rem;
+      font-family: Eina;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 1.25rem;
+      line-height: 1.35;
+      letter-spacing: -0.7px;
+      color: #040110;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
     .logo__avartar {
       position: relative;
@@ -656,7 +673,7 @@ a {
   }
   .header {
     &__top__left {
-      span {
+      &.span:nth-child(2) {
         display: none;
       }
     }
@@ -695,6 +712,9 @@ a {
       }
     }
     .company {
+      .section__subtitle {
+        margin-bottom: 3.875rem;
+      }
       &__card {
         justify-content: space-around;
       }
@@ -732,6 +752,13 @@ a {
   }
 }
 @media (max-width: 576px) {
+  .header {
+    &__top__left {
+      .logo_top_right {
+        display: none;
+      }
+    }
+  }
   .page-wrapper {
     .section {
       padding: 3rem 0;
@@ -789,14 +816,13 @@ a {
     &__top__container {
       height: 100%;
     }
-    &__top__right {
+    &__top__left {
       span {
-        display: none;
+        margin-top: 5px;
       }
     }
     &__logo {
       .logo__title {
-        display: none;
       }
     }
   }

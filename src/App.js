@@ -14,8 +14,11 @@ function App() {
           <div className="header__top__container">
             <div className="header__top__left">
               <img src="img/header-hand.svg" alt="top-1" />
-              <img src="img/header-top-title.svg" alt="top-1" />
-              <span>Support the Equal Justice Initative.</span>
+              <span>Black Lives Matter.</span>
+              {/* <img src="img/header-top-title.svg" alt="top-1" /> */}
+              <span className="logo_top_right">
+                Support the Equal Justice Initative.
+              </span>
             </div>
             <div className="header__top__right">
               <span>Donate now</span>
@@ -29,7 +32,9 @@ function App() {
               <img src="img/myavatar_small.svg" alt="avartar" />
               <span className="badge"></span>
             </div>
-            <img className="logo__title" src="img/title.svg" alt="title" />
+            <p className="logo__title">
+              CTO, Full Stack Developer & Entrepreneur
+            </p>
           </a>
           <nav className="header__nav">
             <ul className="header__nav__list">

@@ -85,7 +85,7 @@ function App() {
         <section className="section hero">
           <div className="container">
             <div className="hero__avartar__image-wrapper">
-              <img src="img/myavatar.svg" alt="hero-avartar-img"></img>
+              <img src="img/myavatar_small.svg" alt="hero-avartar-img"></img>
             </div>
             <div className="hero__text-wrapper">
               <h2>Hi, I’m Kasun Suess.</h2>
@@ -159,14 +159,14 @@ function App() {
             </p>
             <div className="publish__image-wrapper">
               {/* <img src="img/pub-img.svg" alt="pub-img"></img> */}
-              <img src="img/thoughts.png" alt="pub-img"></img>
+              <img src="img/thoughts1.png" alt="pub-img"></img>
             </div>
           </div>
         </section>
         <section className="section about">
           <div className="container">
             <div className="about__avartar__image-wrapper">
-              <img src="img/myavatar.svg" alt="about-img"></img>
+              <img src="img/myavatar_small.svg" alt="about-img"></img>
             </div>
             <div className="section__header">
               <h3 className="section__title">
@@ -259,7 +259,7 @@ function App() {
         <section className="section chat">
           <div className="container">
             <div className="chat__avartar__image-wrapper">
-              <img src="img/myavatar.svg" alt="caht-img-1"></img>
+              <img src="img/myavatar_small.svg" alt="caht-img-1"></img>
             </div>
             <div className="section__header">
               <h3 className="section__title">Let’s have a chat</h3>

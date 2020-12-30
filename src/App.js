@@ -9,7 +9,7 @@ function App() {
   ]);
 
   return (
-    <BrowserRouter location={location}>
+    <BrowserRouter>
       <div className="App">
         <header className={"header" + (navStatus ? " mobile-nav--active" : "")}>
           <div className="header__top">
